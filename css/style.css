@@ -1,0 +1,47 @@
+:root{
+    --softgrey: #3a546d;
+    --softgreen: #1abc9c;
+    --grey: #2c3e50;
+}
+
+body{
+    color: white;
+}
+
+header{
+    background-color: var(--grey);
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.border_round{
+    border-radius: 10px;
+}
+
+.bg_softgreen{
+    background-color: var(--softgreen);
+}
+
+.bg_softgrey{
+    background-color: var(--softgrey);
+}
+
+.bg_grey{
+    background-color: var(--grey);
+}
+
+.bg_white{
+    background-color: white;
+}
+
+.text_grey{
+    color: var(--grey);
+}
+
+.lines{
+    height: 3px;
+    border-radius: 40px;
+}
