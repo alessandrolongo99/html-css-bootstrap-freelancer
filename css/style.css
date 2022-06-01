@@ -51,6 +51,10 @@ img{
     color: var(--grey);
 }
 
+.text_white{
+    color: white;
+}
+
 .text_softgreen{
     color: var(--softgreen);
 }
