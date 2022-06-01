@@ -69,13 +69,14 @@ img{
 }
 
 .overlay{
+    width: calc(100% - 24px);
+    margin: 0 auto;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     height: 100%;
-    width: 100%;
     opacity: 0;
     transition: .5s;
     background-color: var(--softgreen);
@@ -87,11 +88,14 @@ img{
 
 .plus{
     color: white;
-    font-size: 20px;
+    font-size: 100px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.relative:hover .plus{
     opacity: 1;
 }
